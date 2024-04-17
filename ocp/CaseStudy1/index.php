@@ -1,10 +1,10 @@
 <?php
 
-require_once 'Pembayaran.php';
-require_once 'PembayaranDebit.php';
-require_once 'PembayaranKredit.php';
-require_once 'PembayaranCash.php';
-require_once 'PembayaranCustomer.php';
+include_once 'Pembayaran.php';
+include_once 'PembayaranDebit.php';
+include_once 'PembayaranKredit.php';
+include_once 'PembayaranCash.php';
+include_once 'PembayaranCustomer.php';
 
 $tipePembayaran = "debit";
 
